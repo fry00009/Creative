@@ -1,0 +1,97 @@
+.Button_Grid {
+  display:grid;
+  grid-template-columns: auto auto auto;
+  margin-bottom:3em;
+}
+
+.Background {
+  position: absolute;
+  width:100%;
+  height:100%;
+  background-color:white;
+  z-index:-1;
+}
+
+.BackgroundColor {
+  background-color:black;
+}
+
+.PanelOff {
+  background-color:red;
+  border:black 3px solid;
+  padding:20px;
+  font-size:4em;
+  text-align: center;
+}
+
+.PanelOn {
+  background-color:green;
+  border:black 3px solid;
+  padding:20px;
+  font-size:4em;
+  text-align: center;
+}
+
+.container {
+  width:70%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.Header {
+text-align:right;
+font-size:1em;
+color:black;
+font-weight: 100;
+}
+
+.HeaderSize {
+  font-size:5em;
+}
+
+.HeaderColor {
+  color:#8EE4AF;
+}
+
+.HeaderWeight {
+  font-weight:bolder;
+}
+
+.HeaderAlign {
+  text-align:center;
+}
+
+.HeaderSpacing {
+  margin-bottom:.3em;
+}
+
+.Paragraph {
+  font-size:1em;
+  color:black;
+  font-weight:100;
+  text-align:center;
+  line-height:0.6em;
+  font-kerning: auto;
+  word-spacing: .4em;
+}
+
+.ParagraphSize {
+  font-size:2em;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.ParagraphColor {
+  color:white;
+}
+
+.ParagraphAlign {
+  text-align:justify;
+}
+
+.ParagraphLine {
+  line-height:1em;
+}
+
+.ParagraphSpacing {
+  word-spacing:0;
+}
